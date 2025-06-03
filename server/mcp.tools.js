@@ -18,7 +18,7 @@ export async function createPost(status) {
             {
                 type: "text",
                 text: `Tweeted: ${status}`
-            }
+            }   
         ]
     }
 }

@@ -1,7 +1,7 @@
 import express from "express";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
-import { createPost } from "./mcp.tools";
+import  {createPost}  from "./mcp.tools.js";
 import { z } from "zod";
 
 const server = new McpServer({
